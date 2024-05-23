@@ -1,0 +1,128 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+}
+.body{
+  background-image: url(IMG_20240522_172639.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.navbar {
+  background: rgb(243, 243, 247);
+  padding: 12px; 
+}
+.honor{
+  background-color: #f2f2f2d0;
+  border-radius: 40px;
+  padding: 20px;
+  width: 310px;
+  height: 220px;
+  font-size: medium;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.logo {
+  border: 18px;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+
+.asap {
+border-radius: 45px;
+padding: 45px;
+width: 600px;
+
+margin: 0 auto;
+} 
+.div {
+  margin-left: 20px;
+    float: left;
+}
+.div1{
+  float: left;
+  width: 50px;
+  height: 100px;
+  margin: 20px;
+}
+
+
+
+.title {
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(72, 72, 250);
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.container {
+  display: flex;
+  padding: 56px;
+  gap: 12px;
+}
+
+.welcome {
+  flex: 1;
+  margin-top: 12%;
+}
+
+.agenda {
+  flex: 1;
+}
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding-top: 8px;;
+}
+
+p {
+  font-size: 24px;
+}
+.role {
+ text-decoration: underline;
+ font-weight: 1000;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: rgb(36, 141, 160);
+}
+.footer {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(151, 144, 144, 0.76);
+  font-weight: 500;
+}
+.stay-connected {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+table, th,td {
+  border: 1px solid;
+}
+tr:nth-of-type(even) {
+  background: color #f2f2f2;
+}
